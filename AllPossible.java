@@ -22,7 +22,7 @@ public class AllPossible {
 		System.out.println("Total time in seconds taken to slove the N-Queens is "+(t2-t1)/1000);
 	}	
 
-	public static  void slove(int p) {
+	public static  void solve(int p) {
 		//printl();
 		ArrayList<ArrayList> a = findAllZeros(p);
 	//	System.out.println(count);
@@ -89,7 +89,7 @@ public class AllPossible {
 		int b[]={-1,-1};
 		return b ;
 	}
-	public static boolean slove1(int i, int j) {
+	public static boolean solve1(int i, int j) {
 		boolean b1 = rowCheck(j);
 	//	System.out.println(b1);
 		boolean b2 = cloCheck(i);
