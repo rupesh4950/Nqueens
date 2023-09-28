@@ -14,7 +14,7 @@ public class AllPossible {
 		double t1 = System.currentTimeMillis();
 		//printl();
 		System.out.println("N_Queens Before Sloved ");
-		slove(0);
+		solve(0);
 	//	System.out.println(count);
 		
 		//printl();
@@ -35,7 +35,7 @@ public class AllPossible {
 		for (ArrayList ar : a) {
 			int i=(int) ar.get(0);
 			int j=(int) ar.get(1);
-			boolean b = slove1(i,j);
+			boolean b = solve1(i,j);
 			if(b) {
 				queen[i][j]=1;
 			//	count++;
